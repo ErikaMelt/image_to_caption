@@ -24,7 +24,7 @@ cd your-image-captioning-repo
 ```
 python -m venv venv
 source venv/bin/activate
-```
+
 
 ### Usage
 
@@ -32,7 +32,7 @@ source venv/bin/activate
 
 ```
 python app.py
-```
+
 
 - Open a web browser and go to http://127.0.0.1:5000/
 - Upload an image using the provided form and see the generated caption.
