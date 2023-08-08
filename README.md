@@ -18,13 +18,13 @@ Follow these instructions to set up and run the project on your local machine.
 
 ```git clone https://github.com/ErikaMelt/image-captioning-repo.git
 cd your-image-captioning-repo
-
+```
 
 2. Set up a virtual environment (optional but recommended):
 ```
 python -m venv venv
 source venv/bin/activate
-
+```
 
 ### Usage
 
@@ -32,7 +32,7 @@ source venv/bin/activate
 
 ```
 python app.py
-
+```
 
 - Open a web browser and go to http://127.0.0.1:5000/
 - Upload an image using the provided form and see the generated caption.
