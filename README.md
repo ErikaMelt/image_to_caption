@@ -16,15 +16,15 @@ Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the repository:
 
-```git clone https://github.com/ErikaMelt/image-captioning-repo.git
-cd your-image-captioning-repo
-```
+   ```bash
+   git clone https://github.com/ErikaMelt/image-captioning-repo.git
+   cd your-image-captioning-repo
 
 2. Set up a virtual environment (optional but recommended):
-```
-python -m venv venv
+
+
+```python -m venv venv
 source venv/bin/activate
-```
 
 ### Usage
 
