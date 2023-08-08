@@ -21,8 +21,8 @@ Follow these instructions to set up and run the project on your local machine.
    cd your-image-captioning-repo
 
 Set up a virtual environment (optional but recommended):
- ```python -m venv venv
-source venv/bin/activate```
+python -m venv venv
+source venv/bin/activate
 
 ### Usage
 
