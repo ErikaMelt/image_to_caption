@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Image Captioning</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Image Captioning</a></h1>
+					</header>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="single.html">Upload image</a></h2>
+										<form method="POST" enctype="multipart/form-data">
+											<input type="file" name="file">
+											<input type="submit" value="Upload and Generate Caption">
+										</form>
+									</div>
+								</header>
+								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								{% if image_filename %}
+								<a href="{{ url_for('uploaded_file', filename=image_filename) }}" class="image featured">
+									<img src="{{ url_for('uploaded_file', filename=image_filename) }}" alt="Uploaded Image">
+								</a>
+																
+								<h2>Caption:</h2>
+								<p>{{ caption }}</p>
+								{% endif %}
+							</article>
+				</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="static/images/logo.jpg" alt="" /></a>
+								<header>
+									<h2>Image Captioning</h2>
+									<p>BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation</p>
+									<p>Model reference: <a href="https://huggingface.co/Salesforce/blip-image-captioning-large">Salesforce/blip-image-captioning-large</a></p>
+								</header>
+							</section>
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+
+	</body>
+</html>
