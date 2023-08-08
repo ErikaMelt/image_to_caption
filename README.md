@@ -16,9 +16,9 @@ Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/YourUsername/your-image-captioning-repo.git
-   cd your-image-captioning-repo
+
+git clone https://github.com/YourUsername/your-image-captioning-repo.git
+cd your-image-captioning-repo
 
 Set up a virtual environment (optional but recommended):
 python -m venv venv
